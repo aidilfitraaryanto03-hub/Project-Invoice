@@ -79,4 +79,4 @@ print(f"Total    : {rupiah(total)}")
 print(f"Terbilang: {terbilang(total)} rupiah")
 print("="*70)
 
-#
+#END

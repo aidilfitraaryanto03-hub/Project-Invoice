@@ -21,22 +21,36 @@ def terbilang(n):
     else:
         return "jumlah terlalu besar"
 
+<<<<<<< HEAD
 print("=" * 70)
 print("FAKTUR TAGIHAN".center(70))
 print("=" * 70)
+=======
+print("="*70)
+print("FAKTUR TAGIHAN".center(70))
+print("="*70)
+>>>>>>> 36cb63f62639cbfcf1f8728d7049e4281406862a
 
 perusahaan = input("Nama Perusahaan : ")
 alamat = input("Alamat Perusahaan : ")
 telepon = input("Telepon : ")
 
+<<<<<<< HEAD
 print("-" * 70)
+=======
+print("-"*70)
+>>>>>>> 36cb63f62639cbfcf1f8728d7049e4281406862a
 
 no_faktur = input("No Faktur : ")
 tanggal = input("Tanggal : ")
 nama = input("Nama Pembeli : ")
 alamat_pembeli = input("Alamat Pembeli : ")
 
+<<<<<<< HEAD
 print("=" * 70)
+=======
+print("="*70)
+>>>>>>> 36cb63f62639cbfcf1f8728d7049e4281406862a
 
 jumlah_jasa = int(input("Jumlah jasa : "))
 
@@ -62,6 +76,7 @@ print(f"Pembeli    : {nama}")
 print(f"Alamat     : {alamat_pembeli}")
 print("-" * 70)
 
+<<<<<<< HEAD
 print(f"Subtotal     : {rupiah(total)}")
 print(f"Margin 30%   : {rupiah(margin)}")
 print(f"Net          : {rupiah(net)}")
@@ -70,3 +85,17 @@ print(f"PPN 10%      : {rupiah(ppn)}")
 print(f"Grand Total  : {rupiah(grand_total)}")
 print(f"Terbilang    : {terbilang(grand_total)} rupiah")
 print("=" * 70)
+=======
+print("DAFTAR JASA")
+for i, j in enumerate(jasa, start=1):
+    print(f"{i}. {j[0]} - {rupiah(j[1])}")
+
+print("-"*70)
+print(f"Subtotal : {rupiah(subtotal)}")
+print(f"PPN 10%  : {rupiah(ppn)}")
+print(f"Total    : {rupiah(total)}")
+print(f"Terbilang: {terbilang(total)} rupiah")
+print("="*70)
+
+#END
+>>>>>>> 36cb63f62639cbfcf1f8728d7049e4281406862a
